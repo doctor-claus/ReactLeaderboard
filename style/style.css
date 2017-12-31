@@ -1,0 +1,26 @@
+.container .header {
+  text-align: center;
+  margin-top: 50px;
+  background: #1F6C16;
+  font-size: 2em;
+  border-radius: 10px;
+  color: white; }
+.container img {
+  height: 50px;
+  width: 50px;
+  float: left; }
+.container td, .container th {
+  text-align: center; }
+.container .info {
+  -webkit-animation: fadein 1s; }
+.container .days:hover, .container .alltime:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */
